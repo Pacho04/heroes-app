@@ -14,10 +14,6 @@ export const HeroList = ({publisher}) => {
                     key={hero.id}
                     {...hero}
                 />
-                
-                //    <li key={hero.id}>
-                //        {hero.superhero}
-                //    </li>
                ))
            } 
         </div>
